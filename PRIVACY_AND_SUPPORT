@@ -1,0 +1,188 @@
+# MapSwap — Support & Privacy
+
+Welcome! This page covers common questions, troubleshooting, and our privacy policy.
+
+If you don't find your answer here, email **rothsoftware@icloud.com** and I'll respond as soon as I can.
+
+- [Support](#support)
+- [Privacy Policy](#privacy-policy)
+
+---
+
+## Support
+
+### Getting Started
+
+#### How do I enable the extension?
+
+1. Open the **MapSwap** app.
+2. Tap **Enable in Safari** (or open the iOS Settings app → Safari → Extensions).
+3. Toggle **MapSwap** on.
+4. Set Permissions to **All Websites** so MapSwap can detect addresses on any page.
+
+#### How do I change my preferred map app?
+
+In the MapSwap app, tap **Apple Maps**, **Google Maps**, or **Waze** under **Preferred Map App**. The change takes effect immediately for new pages and address links.
+
+---
+
+### Using MapSwap
+
+#### How does MapSwap detect addresses?
+
+The extension scans the text on each webpage you visit (in Safari, locally on your device) and looks for patterns that match street addresses. It supports addresses in the United States, Canada, the United Kingdom, Australia, and many European countries.
+
+When an address is found, it's underlined and tinted blue. Tap it to open the address in your preferred map app.
+
+#### Why isn't an address being highlighted?
+
+A few common reasons:
+
+- **The page is still loading.** Wait a moment, then scroll past the address.
+- **The address format is unusual.** Some pages format addresses in ways that are hard to recognize (e.g., unusual line breaks, foreign formats not yet supported).
+- **The page uses an iframe.** Some pages render content inside iframes; MapSwap scans those too, but if the iframe sandbox blocks scripts, it may not work.
+- **The extension permission isn't "All Websites".** Re-check Safari → Extensions → MapSwap → Permissions.
+
+If you find an address that should be detected but isn't, please email me the page URL — I'd like to improve the detection.
+
+#### How does the Share Extension work?
+
+If you copy an address from any app (Messages, Mail, Notes, Yelp, etc.) and tap the **Share** button:
+
+1. Pick **MapSwap** from the share sheet.
+2. The address opens in your preferred map app.
+
+You can also share a Google Maps, Apple Maps, or Waze link to MapSwap, and it will redirect you to your preferred app.
+
+#### Why doesn't the Google Maps button always appear?
+
+The floating "Open in Apple Maps / Waze" button appears on Google Maps only when there's a specific place selected (a place pin, a search result, or a directions destination). If you're just panning the map without selecting anything, the button stays hidden.
+
+#### Why does tapping a Google Maps link still open Google Maps?
+
+iOS always routes Google Maps links to the Google Maps app when it's installed, regardless of what you set as default. To open a Google Maps link in Apple Maps or Waze, use the Share button to share the link to MapSwap instead.
+
+---
+
+### Troubleshooting
+
+#### A tapped address didn't open the map app
+
+1. Force-quit Safari (swipe up from the bottom, swipe Safari away) and try again.
+2. Make sure your preferred map app is installed.
+3. If the issue keeps happening, please email a screenshot and a description.
+
+#### The Share Extension shows a black screen
+
+If the Share Extension shows a brief black/blank screen, that's the extension processing before it opens your map app. It should clear within 1–2 seconds. If it stays stuck:
+
+1. Tap once to dismiss it.
+2. Try sharing again.
+3. If the issue persists, restart your device.
+
+#### Addresses are highlighted, but nothing happens when I tap
+
+Try refreshing the page. If the page was loaded from Safari's back-forward cache, the tappable links may need to be re-attached.
+
+---
+
+### Tips
+
+MapSwap is free. If you'd like to support development, you can leave an optional tip from the MapSwap app under the **Support MapSwap** card:
+
+- 📍 **Drop a Pin** — $0.99
+- 🚗 **Cross Town** — $2.99
+- 🛻 **Long Haul** — $4.99
+- ⛽️ **Fill the Tank** — $9.99
+
+Tips are non-refundable Consumable In-App Purchases. Thank you for the support!
+
+---
+
+### Contact
+
+**Email:** rothsoftware@icloud.com
+
+Please include:
+
+- Your iOS version (Settings → General → About)
+- Your iPhone or iPad model
+- A screenshot if relevant
+- The URL of the page (if the issue is with address detection)
+
+I read every message and try to respond within a few days. Thanks for using MapSwap!
+
+---
+
+## Privacy Policy
+
+**Last Updated: June 7, 2026**
+
+### Overview
+
+MapSwap ("the App") is a Safari Web Extension and iOS app that detects street addresses on webpages and makes them tappable to open in your preferred map app. Your privacy is important to us. This policy explains what data the App does and does not access.
+
+### Data Collection
+
+**MapSwap does not collect any data.** Specifically:
+
+- **No personal information** is collected, stored, or transmitted.
+- **No browsing history** is tracked or recorded.
+- **No webpage content** is sent to any server.
+- **No passwords, cookies, or credentials** are accessed.
+- **No analytics or tracking** of any kind is used.
+- **No third-party services** receive any data from the App.
+- **No advertising identifiers** are accessed.
+
+### How the Extension Works
+
+The extension runs entirely on your device. It:
+
+1. Scans the visible text on webpages to find patterns that match street addresses.
+2. Highlights detected addresses and makes them tappable links.
+3. Opens tapped addresses in your preferred map app (Apple Maps, Google Maps, or Waze).
+
+All processing happens locally in Safari on your device. No webpage content, addresses, or browsing data is ever transmitted off your device.
+
+### How the Share Extension Works
+
+The MapSwap Share Extension lets you share an address or map link from any app to open it in your preferred map app. When you use it:
+
+1. The shared text or URL is read directly from the iOS share sheet.
+2. An address is extracted locally on your device.
+3. The address is passed to your preferred map app via a URL scheme.
+
+No shared content is logged, stored, or transmitted anywhere except to the map app you've chosen.
+
+### Data Stored on Your Device
+
+The only data stored on your device is:
+
+- **Your preferred map app selection** (Apple Maps, Google Maps, or Waze)
+- **App open count** (used internally to time the optional review prompt)
+- **Review-prompt flag** (so we don't ask twice)
+
+This data is stored using Safari extension storage and App Group shared storage, and never leaves your device.
+
+### Webpage Access Permission
+
+Safari requires the "All Websites" permission for the extension to scan pages for addresses. This permission is used solely to read page text and identify addresses. The extension does not modify webpage content beyond visually highlighting detected addresses, and does not record or transmit any webpage data.
+
+### In-App Purchases (Tips)
+
+MapSwap is free. If you choose to leave an optional tip via the in-app tip jar, the transaction is handled entirely by Apple's StoreKit framework. We never see your payment information. Apple processes the purchase and provides us with anonymous transaction information (no personally identifiable data) so we know the tip succeeded. No record of your purchase, or whether you tipped at all, is shared with any third party.
+
+### Children's Privacy
+
+The App does not collect any data from any user, including children under 13.
+
+### Changes to This Policy
+
+If we update this privacy policy, we will post the changes here with an updated date.
+
+### Contact
+
+If you have questions about this privacy policy, please contact:
+
+**rothsoftware@icloud.com**
+
