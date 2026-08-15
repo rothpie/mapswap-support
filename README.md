@@ -1,3 +1,109 @@
+# MapSwap Support
+
+Welcome! This page covers common questions and troubleshooting steps for MapSwap.
+
+If you don't find your answer here, email rothsoftware@icloud.com and I'll respond as soon as I can.
+
+## Getting Started
+
+### How do I enable the extension?
+
+1. Open the MapSwap app.
+2. Tap Enable in Safari (or open the iOS Settings app → Safari → Extensions).
+3. Toggle MapSwap on.
+4. Set Permissions to All Websites so MapSwap can detect addresses on any page.
+
+### How do I change my preferred map app?
+
+In the MapSwap app, tap Apple Maps, Google Maps, or Waze under Preferred Map App. The change takes effect immediately for new pages and address links.
+
+## Using MapSwap
+
+### How does MapSwap detect addresses?
+
+The extension scans the text on each webpage you visit (in Safari, locally on your device) and looks for patterns that match street addresses. It supports addresses in the United States, Canada, the United Kingdom, Australia, and many European countries.
+
+When an address is found, it's underlined and tinted blue. Tap it to open the address in your preferred map app.
+
+### Why isn't an address being highlighted?
+
+A few common reasons:
+
+- The page is still loading. Wait a moment, then scroll past the address.
+- The address format is unusual. Some pages format addresses in ways that are hard to recognize (e.g., unusual line breaks, foreign formats not yet supported).
+- The page uses an iframe. Some pages render content inside iframes; MapSwap scans those too, but if the iframe sandbox blocks scripts, it may not work.
+- The extension permission isn't "All Websites". Re-check Safari → Extensions → MapSwap → Permissions.
+
+If you find an address that should be detected but isn't, please email me the page URL — I'd like to improve the detection.
+
+### How does the Share Extension work?
+
+If you copy an address from any app (Messages, Mail, Notes, Yelp, etc.) and tap the Share button:
+
+1. Pick MapSwap from the share sheet.
+2. The address opens in your preferred map app.
+
+You can also share a Google Maps, Apple Maps, or Waze link to MapSwap, and it will redirect you to your preferred app.
+
+### Why doesn't the Google Maps button always appear?
+
+The floating "Open in Apple Maps / Waze" button appears on Google Maps only when there's a specific place selected (a place pin, a search result, or a directions destination). If you're just panning the map without selecting anything, the button stays hidden.
+
+### Why does tapping a Google Maps link still open Google Maps?
+
+iOS always routes Google Maps links to the Google Maps app when it's installed, regardless of what you set as default. To open a Google Maps link in Apple Maps or Waze, use the Share button to share the link to MapSwap instead.
+
+## Troubleshooting
+
+### A tapped address didn't open the map app
+
+1. Force-quit Safari (swipe up from the bottom, swipe Safari away) and try again.
+2. Make sure your preferred map app is installed.
+3. If the issue keeps happening, please email a screenshot and a description.
+
+### The Share Extension shows a black screen
+
+If the Share Extension shows a brief black/blank screen, that's the extension processing before it opens your map app. It should clear within 1–2 seconds. If it stays stuck:
+
+1. Tap once to dismiss it.
+2. Try sharing again.
+3. If the issue persists, restart your device.
+
+### Addresses are highlighted, but nothing happens when I tap
+
+Try refreshing the page. If the page was loaded from Safari's back-forward cache, the tappable links may need to be re-attached.
+
+## Tips
+
+MapSwap is free. If you'd like to support development, you can leave an optional tip from the MapSwap app under the Support MapSwap card:
+
+- 📍 Drop a Pin — $0.99
+- 🛑 Quick Stop — $1.99
+- 🚗 Cross Town — $2.99
+- 🛻 Long Haul — $4.99
+- ⛽Fill the Tank — $9.99
+
+Tips are non-refundable Consumable In-App Purchases. Thank you for the support!
+
+## Privacy
+
+MapSwap collects no personal data. See the Privacy Policy below for full details.
+
+## Contact
+
+Email: rothsoftware@icloud.com
+
+Please include:
+
+- Your iOS version (Settings → General → About)
+- Your iPhone or iPad model
+- A screenshot if relevant
+- The URL of the page (if the issue is with address detection)
+
+I read every message and try to respond within a few days. Thanks for using MapSwap!
+
+---
+
 # Privacy Policy
 
 Last Updated: August 15, 2026
